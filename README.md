@@ -9,7 +9,7 @@
 | Integrante   | GitHub           |
 |--------------|------------------|
 | Felipe       | feliperottner    |
-| Seu Parceiro | SabrinaDeveloper |
+| Sabrina | SabrinaDeveloper |
 
 ---
 
@@ -32,7 +32,6 @@
 Acesse agora (sem instalar nada):
 
 - 🔗 [safe-task.vercel.app](https://safe-task.vercel.app)
-- 🔗 [safe-task-felipes-projects-1ca3bced.vercel.app](https://safe-task-felipes-projects-1ca3bced.vercel.app)
 
 ---
 
