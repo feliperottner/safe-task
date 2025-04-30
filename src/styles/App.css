@@ -1,0 +1,153 @@
+/* Reset básico do corpo da página */
+body {
+  background-color: #f0f4f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #455a64;
+}
+
+/* Estilo do título principal (h1) */
+h1 {
+  font-weight: 700; 
+  color: #607d8b; 
+  text-shadow: 1px 1px 2px rgba(96, 125, 139, 0.3); 
+}
+
+/* Estilo dos títulos das tabelas (h2) */
+h2 {
+  font-size: 1.8rem; 
+  font-weight: 700; 
+  color: #37474f; 
+  border-bottom: 3px solid #607d8b; 
+  padding-bottom: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Botão "Nova Tarefa" */
+button.btn-primary {
+  background-color: #607d8b; 
+  border: none; 
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(96, 125, 139, 0.2); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+button.btn-primary:hover {
+  background-color: #4a6572;
+  box-shadow: 0 6px 12px rgba(74, 101, 114, 0.3);
+}
+
+/* Estilo das tabelas */
+table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(69, 90, 100, 0.1);
+}
+
+/* Cabeçalho da tabela */
+table thead {
+  background-color: #90a4ae;
+  color: #263238; 
+}
+table thead th {
+  font-weight: 600; 
+  text-align: center;
+}
+
+/* Linha da tabela ao passar o mouse */
+table tbody tr:hover {
+  background-color: #e1e8eb;
+  cursor: pointer;
+}
+
+/* Centraliza colunas específicas */
+table tbody td.text-center {
+  text-align: center;
+}
+
+/* Botão Editar */
+button.btn-warning {
+  background-color: #2196f3;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+button.btn-warning:hover {
+  background-color: #1976d2; 
+  color: white;
+}
+
+/* Botão Excluir */
+button.btn-danger {
+  background-color: #e53935; 
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+button.btn-danger:hover {
+  background-color: #b71c1c; 
+  color: white;
+}
+
+/* Estilo dos modais */
+.modal-content {
+  border-radius: 12px; 
+  box-shadow: 0 8px 24px rgba(96, 125, 139, 0.3);
+}
+.modal-header {
+  background-color: #607d8b; 
+  color: white;
+  border-bottom: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-footer {
+  border-top: none;
+}
+
+/* Estilo dos alertas (mensagens de feedback) */
+.alert {
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(69, 90, 100, 0.1);
+}
+
+/* Estilo dos inputs e selects dos formulários */
+form input[type="text"],
+form textarea,
+form select,
+form .form-control {
+  border-radius: 6px;
+  border: 1px solid #b0bec5;
+  transition: border-color 0.3s ease;
+  background-color: #f5f7fa; 
+  color: #455a64; 
+}
+form input[type="text"]:focus,
+form textarea:focus,
+form select:focus,
+form .form-control:focus {
+  border-color: #607d8b; 
+  box-shadow: 0 0 5px rgba(96, 125, 139, 0.5);
+  outline: none;
+  background-color: #ffffff; 
+}
+
+/* Botão de submit do formulário */
+form button[type="submit"] {
+  background-color: #28a745; 
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button[type="submit"]:hover {
+  background-color: #1e7e34; 
+}
+
+/* Margem superior para mensagens de feedback */
+.mt-3 {
+  margin-top: 1rem !important;
+}
