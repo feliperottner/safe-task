@@ -1,101 +1,112 @@
-# 🚀 SAFE TASK - O Gerenciador de Tarefas Mais Épico 🌌
+<h1 align="center">🚀 SAFE TASK - O Gerenciador de Tarefas Mais Épico 🌌</h1>
 
-**"Organize sua vida com estilo usando o SAFE TASK!"**
+<p align="center"><strong>"Organize sua vida com estilo usando o SAFE TASK!"</strong></p>
 
----
+<hr/>
 
-## 👥 A Dupla Dinâmica
+<h2 id="sumario">📑 Sumário</h2>
+<ul>
+  <li><a href="#sobre-o-projeto">💡 Sobre o Projeto</a></li>
+  <li><a href="#funcionalidades">🚀 Funcionalidades</a></li>
+  <li><a href="#tecnologias-utilizadas">🖥️ Tecnologias Utilizadas</a></li>
+  <li><a href="#deploy">🌐 Deploy</a></li>
+  <li><a href="#como-rodar-localmente">🔧 Como Rodar Localmente</a></li>
+  <li><a href="#screenshots">🖼️ Screenshots</a></li>
+  <li><a href="#equipe">👥 Equipe</a></li>
+  <li><a href="#licenca">📝 Licença</a></li>
+</ul>
 
-| Integrante   | GitHub           |
-|--------------|------------------|
-| Felipe       | feliperottner    |
-| Sabrina | SabrinaDeveloper |
+<h2 id="sobre-o-projeto">💡 Sobre o Projeto</h2>
 
----
+<p><strong>SAFE TASK</strong> é mais do que um simples gerenciador de tarefas: é uma jornada épica rumo à produtividade, com um toque místico e muito carisma.</p>
 
-## 🔥 Sobre o Projeto
+<h3>Por que usar o SAFE TASK?</h3>
 
-**SAFE TASK** é mais do que um gerenciador de tarefas: é uma jornada de produtividade com toque místico e muito carisma!
+<ul>
+  <li>✨ <strong>CRUD completo com estilo</strong></li>
+  <li>✅ Marcação de tarefas concluídas com feedback visual</li>
+  <li>🚨 Priorização de tarefas para manter o foco</li>
+  <li>🧠 Categorização intuitiva pra você nunca mais se perder</li>
+  <li>📱 Layout responsivo</li>
+  <li>🌈 Interface estilizada com Bootstrap</li>
+</ul>
 
-### 💡 Por que usar o SAFE TASK?
+<h2 id="funcionalidades">🚀 Funcionalidades</h2>
 
-- ✨ **CRUD completo com estilo**
-- ✅ Marcação de tarefas concluídas com feedback visual
-- 🚨 Priorização de tarefas para manter o foco
-- 🧠 Categorização intuitiva pra você nunca mais se perder
-- 📱 Layout responsivo
-- 🌈 Interface estilizada com Bootstrap
----
+<ul>
+  <li>✅ Criar tarefas com facilidade</li>
+  <li>✏️ Editar tarefas</li>
+  <li>🗑️ Excluir tarefas</li>
+  <li>🏁 Marcar como concluído com orgulho</li>
+  <li>📂 Filtrar por categoria e prioridade</li>
+  <li>🌟 Feedback visual para deixar tudo mais bonito</li>
+</ul>
 
-## 🌐 Deploy
+<h2 id="tecnologias-utilizadas">🖥️ Tecnologias Utilizadas</h2>
 
-Acesse agora (sem instalar nada):
+<p>
+  <img src="https://skillicons.dev/icons?i=react" alt="React.js" />
+  <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/LocalStorage-F7DF1E?logo=javascript&logoColor=white" alt="LocalStorage" />
+  <img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" />
+</p>
 
-- 🔗 [safe-task.vercel.app](https://safe-task.vercel.app)
+<p>Utilizamos <strong>React.js</strong> para o desenvolvimento da interface, <strong>Bootstrap</strong> para estilização, <strong>LocalStorage</strong> para persistência de dados e <strong>Vercel</strong> para hospedagem e deploy contínuo.</p>
 
----
+<h2 id="deploy">🌐 Deploy</h2>
 
-## ⚙️ Tecnologias Utilizadas
+<p>
+O SAFE TASK está disponível online, pronto para transformar sua organização pessoal:<br/>
+🔗 <a href="https://safe-task.vercel.app" target="_blank">https://safe-task.vercel.app</a>
+</p>
 
-- ⚛️ **React.js**
-- 🎨 **Bootstrap**
-- 💾 **LocalStorage** 
-- ☁️ **Vercel**
+<h2 id="como-rodar-localmente">🔧 Como Rodar Localmente</h2>
 
----
+<h3>🛠️ Passos</h3>
 
-## 🎯 Funcionalidades
+<pre>
+# Clone o repositório
+git clone https://github.com/seu-usuario/safe-task.git
 
-```javascript
-const features = [
-  "✅ Criar tarefas com facilidade",
-  "✏️ Editar tarefas",
-  "🗑️ Excluir tarefas",
-  "🏁 Marcar como concluído com orgulho",
-  "📂 Filtrar por categoria e prioridade",
-  "🌟 Feedback visual pra deixar tudo mais bonito",
-];
-```
+# Acesse o diretório
+cd safe-task
 
----
+# Instale as dependências
+npm install
 
-## 🧑‍💻 Como Rodar Localmente
+# Inicie a aplicação
+npm start
+</pre>
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/seu-usuario/safe-task.git
-   ```
+<p>Depois, acesse no navegador: <a href="http://localhost:3000" target="_blank">http://localhost:3000</a></p>
 
-2. **Instale as dependências**
-   ```bash
-   npm install
-   ```
+<h2 id="screenshots">🖼️ Screenshots</h2>
 
-3. **Inicie o app**
-   ```bash
-   npm start
-   ```
+<ul>
+  <li>✔️ <strong>Dashboard principal</strong> – Seu novo QG da produtividade</li>
+  <li>🔧 <strong>Modal de edição</strong> – Visual limpo e funcional</li>
+  <li>💣 <strong>Confirmação de exclusão</strong> – Porque a dúvida é real</li>
+</ul>
 
-4. **Acesse no navegador**
-   ```
-   http://localhost:3000
-   ```
+<h2 id="equipe">👥 Equipe</h2>
 
----
+<table>
+  <tr>
+    <th>Integrantes</th>
+    <th>LinkedIn</th>
+  </tr>
+  <tr>
+    <td>Felipe</td>
+    <td><a href="https://www.linkedin.com/in/feliperottner/" target="_blank">Felipe no LinkedIn</a></td>
+  </tr>
+  <tr>
+    <td>Sabrina</td>
+    <td><a href="https://www.linkedin.com/in/sabrinadeveloper/" target="_blank">Sabrina no LinkedIn</a></td>
+  </tr>
+</table>
 
-## 🖼️ Screenshots
+<h2 id="licenca">📝 Licença</h2>
 
-- ✔️ **Dashboard principal** – Seu novo QG da produtividade  
-- 🔧 **Modal de edição** – Visual limpo e funcional  
-- 💣 **Confirmação de exclusão** – Porque a dúvida é real  
-
----
-
-## 📜 Licença
-
-Distribuído sob a licença **MIT**.  
-Traduzindo: Use, modifique e compartilhe à vontade — só não nos culpe se suas tarefas continuarem acumulando 😅
-
----
-
-Feito com ❤️ e um toque de insanidade produtiva pela dupla mais épica desde Batman e Robin!
+<p>Distribuído sob a licença <strong>MIT</strong>.<br/>
+Traduzindo: use, modifique e compartilhe à vontade — só não nos culpe se suas tarefas continuarem acumulando 😅
+</p>
