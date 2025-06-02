@@ -101,7 +101,7 @@ npm start
   </tr>
   <tr>
     <td>Sabrina</td>
-    <td><a href="https://www.linkedin.com/in/sabrinadeveloper/" target="_blank">Sabrina no LinkedIn</a></td>
+    <td><a href="https://www.linkedin.com/in/sabrina-silva-723291333" target="_blank">Sabrina no LinkedIn</a></td>
   </tr>
 </table>
 
